@@ -1574,7 +1574,7 @@ a:focus {
   .footer .footer-social a:hover i.fa-linkedin-in { color: #0077B5; }
   .footer .footer-social a:hover i.fa-github { color: #333; }
   .footer .footer-social a:hover i.fa-gitlab { color: #d84c06; }
-
+  .footer .footer-social a:hover i.fab.fa-telegram { color: #0088cc; }
 .footer .copyright {
     position: relative;
     text-align: center;
