@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: #ffffff;
+    background: #FDFDFD;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: rgba(0, 47, 134, 1);
+    color: #2465FF;
     outline: none;
     text-decoration: none;
 }
@@ -44,10 +44,10 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: rgba(0, 47, 134, 1);
+    background: #2465FF;
     border: 2px solid transparent;
-    border-radius: 5px;
-    box-shadow: inset 0 0 0 50px rgba(0, 47, 134, 1);
+    border-radius: 25px;
+    box-shadow: inset 0 0 0 50px #2465FF;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -56,8 +56,8 @@ a:focus {
 .btn:hover {
     color: rgba(0, 47, 134, 1);
     background: transparent;
-    box-shadow: inset 0 0 0 0 rgba(0, 47, 134, 1);
-    border-color: rgba(0, 47, 134, 1);
+    box-shadow: inset 0 0 0 0 #2465FF;
+    border-color: #2465FF;
 }
 
 #loader {
@@ -174,7 +174,7 @@ a:focus {
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
+        border-bottom: 1px dashed #2465FF;
         z-index: 9;
     }
     
@@ -188,7 +188,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: rgba(0, 47, 134, 1);
+        color: #2465FF;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -211,18 +211,18 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: rgba(0, 47, 134, 1);
+        color: #2465FF;
     }
 }
 
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #fffff0 !important;
     }
     
     .navbar .navbar-brand {
-        color: rgba(0, 47, 134, 1);
+        color: #2465FF;
     }
     
     .navbar .navbar-nav {
@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 47, 134, 1), rgb(6, 67, 179)), url(../img/hero-bg.jpg);
+    background: linear-gradient(#2465FF, rgb(4, 50, 135)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -616,12 +616,12 @@ a:focus {
   right: 10px;
   z-index: 1;
   border: 10px solid;
-  border-color: transparent transparent transparent #dddddd;
+  border-color: transparent transparent transparent #2465FF;
 }
 
 .experience .timeline .timeline-item.right::before {
   left: 10px;
-  border-color: transparent #dddddd transparent transparent;
+  border-color: transparent #2465FF transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -650,13 +650,13 @@ a:focus {
     padding: 30px;
     background: #ffffff;
     position: relative;
-    border-right: 5px solid #dddddd;
+    border-right: 5px solid #2465FF;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
-    border-left: 5px solid #dddddd;
+    border-left: 5px solid #2465FF;
 }
 
 .experience .timeline .timeline-text h2 {
@@ -744,7 +744,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 rgba(0, 47, 134, 1);
+    box-shadow: inset 800px 0 0 0 #2465FF;
     border-radius: 10px;
 }
 
@@ -756,14 +756,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(0, 47, 134, 1);
+    border: 1px solid #2465FF;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: rgba(0, 47, 134, 1);
+    color: #2465FF;
     transition: .3s;
 }
 
@@ -832,10 +832,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: rgba(0, 47, 134, 1);
+    background: #2465FF;
     border: 2px solid transparent;
     border-radius: 5px;
-    box-shadow: inset 0 0 0 50px rgba(0, 47, 134, 1);
+    box-shadow: inset 0 0 0 50px #2465FF;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -845,8 +845,8 @@ a:focus {
 .portfolio #portfolio-filter li.filter-active {
     color: rgba(0, 47, 134, 1);
     background: transparent;
-    box-shadow: inset 0 0 0 0 rgba(0, 47, 134, 1);
-    border-color: rgba(0, 47, 134, 1);
+    box-shadow: inset 0 0 0 0 #2465FF;
+    border-color: #2465FF;
 }
 
 .portfolio .portfolio-item {
@@ -909,10 +909,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: rgba(0, 47, 134, 1);
+    color: #2465FF;
     background: transparent;
-    box-shadow: inset 0 0 0 0 rgba(0, 47, 134, 1);
-    border-color: rgba(0, 47, 134, 1);
+    box-shadow: inset 0 0 0 0 #2465FF;
+    border-color: #2465FF;
 }
 
 
@@ -924,7 +924,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: rgba(0, 47, 134, 1);
+    background: #2465FF;
 }
 
 .banner .container {
@@ -937,7 +937,7 @@ a:focus {
 }
 
 .banner .section-header p {
-    color: #414141;
+    color: #2465FF;
     background: transparent;
 }
 
@@ -961,7 +961,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: rgba(0, 47, 134, 1);
+    color: #2465FF;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1221,7 +1221,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: rgba(0, 47, 134, 1);
+    background: #2465FF;
 }
 
 .testimonial .container {
@@ -1311,18 +1311,18 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: rgba(0, 47, 134, 1);
+    background: #F2F4F7;
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+    background: url(../img/body.webp) left center no-repeat;
     background-size: contain;
 }
 
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: rgba(0, 47, 134, 1);
+    background: #2465FF;
 }
 
 .contact .contact-form input {
@@ -1356,7 +1356,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: rgba(0, 47, 134, 1);
+    color: #2465FF;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1470,7 +1470,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: rgba(0, 47, 134, 1);
+    background: linear-gradient( #2465FF ,rgb(4, 50, 135));
 }
 
 .footer .container-fluid {
@@ -1516,29 +1516,64 @@ a:focus {
     border: none;
 }
 
-.footer .footer-social {
-    position: relative;
-    margin-top: 15px;
-}
-
-.footer .footer-social a {
+.footer {
+    background-color: #ffffff;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .footer-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .footer-info h3 {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .footer-menu {
+    margin-bottom: 15px;
+  }
+  
+  .footer-menu p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .footer .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer .footer-social a {
     display: inline-block;
-}
-
-.footer .footer-social a i {
-    margin-right: 15px;
-    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .footer .footer-social a i {
     color: #ffffff;
-    transition: .3s;
-}
-
-.footer .footer-social a:last-child i {
-    margin: 0;
-}
-
-.footer .footer-social a:hover i {
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .footer .footer-social a:hover i {
     color: #414141;
-}
+    transform: scale(1.2);
+  }
+  
+  /* Additional branding hover effects */
+  .footer .footer-social a:hover i.fa-twitter { color: #1DA1F2; }
+  .footer .footer-social a:hover i.fa-facebook-f { color: #052872; }
+  .footer .footer-social a:hover i.fa-youtube { color: #FF0000; }
+  .footer .footer-social a:hover i.fa-instagram { color: #C13584; }
+  .footer .footer-social a:hover i.fa-linkedin-in { color: #0077B5; }
+  .footer .footer-social a:hover i.fa-github { color: #333; }
+  .footer .footer-social a:hover i.fa-gitlab { color: #d84c06; }
 
 .footer .copyright {
     position: relative;
