@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
+    color: #2465FF;
     background: #FDFDFD;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1311,18 +1311,19 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #ffffff;
+    background: linear-gradient(#2465FF, rgb(4, 50, 135));
 }
 
-.contact .container-fluid {
+/* .contact .container-fluid {
     background: url(../img/body.webp) left center no-repeat;
     background-size: contain;
-}
+} */
 
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #2465FF;
+    /* background: linear-gradient(#2465FF, rgb(4, 50, 135)); */
+    background: linear-gradient(#2465FF, rgb(4, 50, 135));
 }
 
 .contact .contact-form input {
