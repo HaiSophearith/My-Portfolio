@@ -212,6 +212,10 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #2465FF;
+        border-bottom: 3px solid #2465FF; /* Change the color and width as needed */
+        display: inline-block; /* Makes the border only as wide as the text */
+        padding-bottom: 0; /* Adds space between text and the border */
+        
     }
 }
 
@@ -1185,13 +1189,13 @@ a:focus {
   
   .footer .footer-social a i {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     transition: color 0.3s ease, transform 0.3s ease;
   }
   
   .footer .footer-social a:hover i {
     color: #414141;
-    transform: scale(1.2);
+    transform: scale(1.8);
   }
   
   /* Additional branding hover effects */
